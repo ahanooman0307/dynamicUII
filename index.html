@@ -8,6 +8,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <section aria-label="Newest Photos">
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button = "prev">&#x2770;</button>
+            <button class="carousel-button next" data-carousel-button = "next">&#x2771;</button>
+
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img src="./images/bmw.jpg" alt="BMW">
+                </li>
+                <li class="slide">
+                    <img src="./images/gtr.jpg" alt="AMG">
+                </li>
+                <li class="slide">
+                    <img src="./images/amg.jpg" alt="GTR">
+                </li>
+            </ul>
+        </div>
+        
+    </section>
     <div class="dropdown">
         <div class="select">
             <span class="selected">Cars</span>
@@ -18,11 +38,12 @@
             <li>Nissan</li>
             <li>Mercedes Benz</li>
             <li>Honda</li>
-            <li class="active">Cars</li>
             <li>Tesla</li>
         </ul>
     </div>
+   
 
    <script src="index.js"></script>
+   <script src="carousel.js"></script>
 </body>
 </html>
